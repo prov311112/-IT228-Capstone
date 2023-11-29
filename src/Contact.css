@@ -1,0 +1,63 @@
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-field {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+}
+.contact {
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}

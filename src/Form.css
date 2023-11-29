@@ -1,0 +1,17 @@
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .form {
+        padding: 0 20px;
+    }
+}

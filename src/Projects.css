@@ -1,0 +1,32 @@
+.projects-container {
+    padding: 20px;
+}
+
+.projects-title {
+    text-align: center;
+    color: #333;
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.project-name {
+    font-size: 1.5em;
+}
+
+.project-description {
+    color: #666;
+}
+
+.project-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+.project-iframe {
+    width: 50%;
+    height: 300px; /* Adjust as needed */
+    border: none;
+}

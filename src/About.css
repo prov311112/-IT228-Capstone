@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #333; /* Adjust as needed */
+}
+
+.about-container {
+    text-align: center;
+    color: #333;
+    height: 500px; /* Adjust as needed */
+    overflow: auto;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 2em;
+}
+
+.about-text p {
+    font-size: 1.2em;
+}
+
+
+/* About.css */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+.profile-image {
+    flex: 1;
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #333; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image circular */
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Adjust as needed */
+}
